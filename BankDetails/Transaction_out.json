@@ -3,109 +3,109 @@
   {
     "Type": "Automatic",
     "Amount": "1500",
-    "From": "Account 1",
-    "To": "Account 2",
-    "Transaction Date": "24/03/2021",
+    "From": "3036****1234",
+    "To": "Ravi - 345****67",
+    "Next Transaction Date": "24/03/2021",
     "Scheduled To" : "31/06/2021"
   },
   {
     "Type": "Automatic",
     "Amount": "1500",
-    "From": "Account 1",
-    "To": "Account 2",
-    "Transaction Date": "24/03/2021",
+    "From": "3036****1234",
+    "To": "Kiran - 123****45",
+    "Next Transaction Date": "24/03/2021",
     "Scheduled To" : "31/06/2021"
   },
   {
     "Type": "Automatic",
     "Amount": "60000",
-    "From": "Account 1",
-    "To": "Account 2",
-    "Transaction Date": "24/03/2021",
+    "From": "3036****1256",
+    "To": "Ravi - 345****67",
+    "Next Transaction Date": "24/03/2021",
     "Scheduled To" : "31/06/2021"
   },
   {
     "Type": "Automatic",
     "Amount": "8500",
-    "From": "Account 1",
-    "To": "Account 2",
-    "Transaction Date": "24/03/2021",
+    "From": "3036****1234",
+    "To": "Kiran - 123****45",
+    "Next Transaction Date": "24/03/2021",
     "Scheduled To" : "31/06/2021"
   },
   {
     "Type": "Automatic",
     "Amount": "6904",
-    "From": "Account 1",
-    "To": "Account 2",
+    "From": "3036****1256",
+    "To": "Kiran - 123****45",
     "Transaction Date": "24/03/2021",
     "Scheduled To" : "31/06/2021"
   },
   {
     "Type": "Automatic",
     "Amount": "4567",
-    "From": "Account 1",
-    "To": "Account 2",
-    "Transaction Date": "24/03/2021",
+    "From": "3036****1234",
+    "To": "Kiran - 123****45",
+    "Next Transaction Date": "24/03/2021",
     "Scheduled To" : "31/06/2021"
   },
   {
     "Type": "Automatic",
     "Amount": "1234",
-    "From": "Account 1",
-    "To": "Account 2",
-    "Transaction Date": "24/03/2021",
+    "From": "3036****1234",
+    "To": "Sam - 456****78",
+    "Next Transaction Date": "24/03/2021",
     "Scheduled To" : "31/06/2021"
   },
   {
     "Type": "Automatic",
     "Amount": "6677",
-    "From": "Account 1",
-    "To": "Account 2",
-    "Transaction Date": "24/03/2021",
+    "From": "3036****1234",
+    "To": "Ravi - 345****67",
+    "Next Transaction Date": "24/03/2021",
     "Scheduled To" : "31/06/2021"
   }
 ],
   "TransactionIn":[
    {
-    "Type": "Automatic",
-    "Amount": "299",
-    "From": "Account 1",
-    "To": "Account 2",
+    "Type": "Once",
+    "Amount": "29999",
+    "From": "3036****1234",
+    "To": "Kiran - 123****45",
     "Transaction Date": "01/04/2021"
   },
   {
     "Type": "Automatic",
     "Amount": "299",
-    "From": "Account 1",
-    "To": "Account 2",
+    "From": "3036****1234",
+    "To": "Ravi - 345****67",
     "Transaction Date": "01/04/2021"
   },
   {
     "Type": "Automatic",
     "Amount": "299",
-    "From": "Account 1",
-    "To": "Account 2",
+    "From": "3036****1256",
+    "To": "Ravi - 345****67",
+    "Transaction Date": "01/04/2021"
+  },
+  {
+    "Type": "Once",
+    "Amount": "299",
+    "From": "3036****1256",
+    "To": "Sam - 456****78",
     "Transaction Date": "01/04/2021"
   },
   {
     "Type": "Automatic",
     "Amount": "299",
-    "From": "Account 1",
-    "To": "Account 2",
+    "From": "3036****1234",
+    "To": "Rajesh - 234****56",
     "Transaction Date": "01/04/2021"
   },
   {
-    "Type": "Automatic",
+    "Type": "Once",
     "Amount": "299",
-    "From": "Account 1",
-    "To": "Account 2",
-    "Transaction Date": "01/04/2021"
-  },
-  {
-    "Type": "Automatic",
-    "Amount": "299",
-    "From": "Account 1",
-    "To": "Account 2",
+    "From": "3036****1234",
+    "To": "Sam - 456****78",
     "Transaction Date": "01/04/2021"
   }
 ]

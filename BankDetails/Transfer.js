@@ -165,7 +165,7 @@ class TransferCom extends React.Component {
         { "End Date": this.state.endDate },
         { Frequency: this.state.frequency },
         { Amount: "Rs. " + this.state.ammount },
-        { Memo: this.state.memo.text }
+        { Remarks: this.state.memo.text }
       ]
     });
   }
@@ -368,7 +368,7 @@ const Memo = props => {
   return (
     <fieldset>
       <label className="main-label">
-        Memo (OPTIONAL: Maximum of {props.maxlen} characters)
+        Remarks (OPTIONAL: Maximum of {props.maxlen} characters)
       </label>
       <textarea
         maxLength={props.maxlen}
@@ -525,12 +525,4 @@ const Summary = props => {
   );
 };
 
-const Footer = props => {
-  return (
-    <footer>
-      <div className="firstLevelFooter" />
-      <div className="secondLevelFooter" />
-    </footer>
-  );
-};
 export default TransferCom;

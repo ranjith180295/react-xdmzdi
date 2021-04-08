@@ -19,8 +19,8 @@ class LoginCom extends React.Component {
   }
 
   componentDidMount() {
-    localStorage.remove("user");
-    localStorage.remove("isLoggedin");
+    localStorage.removeItem("user");
+    localStorage.removeItem("isLoggedin");
   }
 
   Reset() {
