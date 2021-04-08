@@ -1,0 +1,27 @@
+.btn{
+  background: #9e1515;
+  color:white;
+  width:70px;
+  height:25px;
+  border-radius:5px;
+  cursor:pointer;
+  font-size:12px;
+  font-weight:bolder;
+  padding-left: 10px;
+}
+
+.divtxtBox
+{
+  width:200px;
+  height:35px;
+  border-radius:5px;
+  padding: 10px 10px 10px 10px;
+  margin: 0 auto;
+}
+
+.txtBox{
+  width: 90%;
+  border-radius: 5px;
+  font-size:12px;
+  height:25px;
+}
