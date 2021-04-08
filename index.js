@@ -3,10 +3,6 @@ import { render } from "react-dom";
 //import LoginCom from "./LogIn/LogIn";
 import LoginCom from "./BankDetails/Login";
 
-import Home from "./Home/Home";
-import MaterialTestCom from "./MaterialTesting/MaterialTest";
-import MaterialDesignCom from "./MaterialTesting/MaterialDesign";
-
 import ContactDetailsCom from "./BankDetails/Contact";
 
 import TransactionDetailsCom from "./BankDetails/Transactions";
@@ -21,9 +17,6 @@ class App extends React.Component {
       <div>
         <Router>
           <div>
-            <Route path="/Home" exact component={Home} />
-            <Route path="/MaterialTesting" exact component={MaterialTestCom} />
-            <Route path="/MaterialDesign" exact component={MaterialDesignCom} />
             <Route path="/" exact component={LoginCom} />
             <Route path="/Contact" exact component={ContactDetailsCom} />
             <Route path="/Transfer" exact component={TransferCom} />
