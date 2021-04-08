@@ -8,7 +8,7 @@ class Application extends React.Component {
 
     //Initializing State
     this.state = {
-      route: "contact",
+      route: "form",
       fromAccount: 0,
       toAccount: 0,
       transferType: "",
@@ -45,22 +45,26 @@ class Application extends React.Component {
   changeFrom(event) {
     const fromAccount = event.target.value;
     let toAccounts = [...this.state.fromAccounts];
-    toAccounts = _.without(toAccounts, _.find(toAccounts, ["id", fromAccount]));
+    // toAccounts = _.without(toAccounts, _.find(toAccounts, ["id", fromAccount]));
     const toAccount =
       fromAccount === this.state.toAccount ? 0 : this.state.toAccount;
     this.setState({ fromAccount, toAccounts, toAccount });
   }
+
   changeTo(event) {
     this.setState({ toAccount: event.target.value });
   }
+
   changeAmmount(event) {
     this.setState({ ammount: event.target.value });
   }
+
   changeMemo(event) {
     this.setState({
       memo: { text: event.target.value, len: event.target.value.length }
     });
   }
+
   changeTransfer(event) {
     this.setState({
       transferType: event.target.value,
@@ -68,18 +72,23 @@ class Application extends React.Component {
       frequency: null
     });
   }
+
   changeFrequency(event) {
     this.setState({ frequency: event.target.value });
   }
+
   changeStartDate(event) {
     this.setState({ startDate: event.target.value });
   }
+
   changeEndDate(event) {
     this.setState({ endDate: event.target.value });
   }
+
   showModal(modal) {
     this.setState({ modal });
   }
+
   confirmSubmit() {
     this.setState({ modal: false, route: "confirm" });
   }
@@ -309,8 +318,6 @@ class Application extends React.Component {
       return <Profile />;
     } else if (route === "home") {
       return <Home />;
-    } else if (route === "contact") {
-      return <Contact />;
     }
   }
 
@@ -318,7 +325,6 @@ class Application extends React.Component {
     console.log(this.state);
     return (
       <div className="divMain">
-        <Header setRoute={this.setRoute.bind(this)} />
         <section className="mainSection">
           {this.router(this.state.route)}
         </section>

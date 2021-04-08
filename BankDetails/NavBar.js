@@ -1,20 +1,42 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import "./style";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useHistory
+} from "react-router-dom";
+import "./style.css";
 
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      userName: ""
+    };
   }
+
+  componentDidMount() {
+    if (localStorage.getItem("user") != "") {
+      this.setState({
+        userName: localStorage.getItem("user")
+      });
+    } else {
+      alert("Not Authorized to access thi page.!");
+      location.href = window.location.origin;
+    }
+  }
+
+  Click_Logout() {
+    localStorage.setItem("user", "");
+
+    localStorage.setItem("isLoggedin", 0);
+    return;
+  }
+
   render() {
     return (
       <div>
-        <div className="btnMenu">
-          <label htmlFor="chkMenu">
-            <i className="fa fa-bars" />
-          </label>
-        </div>
-        <input type="checkbox" id="chkMenu" />
         <nav className="menu">
           <div className="title">ABC Bank</div>
           <ul>
@@ -33,9 +55,23 @@ class NavBar extends React.Component {
                 Contact
               </Link>
             </li>
-            <i className="fa fa-user fa-fw" style={{ color: "white" }}>
-              Hi, Ranjith
-            </i>
+            <i
+              className="fa fa-user fa-fw"
+              style={{ color: "white", "padding-left": "30%" }}
+            />
+            <span style={{ color: "white" }}> Hi, {this.state.userName}</span>
+            <Link onClick={this.Click_Logout} to="/">
+              <span
+                className="fa fa-sign-out"
+                style={{
+                  color: "white",
+                  "padding-left": "1%",
+                  cursor: "pointer"
+                }}
+              >
+                <span style={{ color: "white" }}> Logout</span>
+              </span>
+            </Link>
           </ul>
         </nav>
       </div>

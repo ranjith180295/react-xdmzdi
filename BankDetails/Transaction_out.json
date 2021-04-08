@@ -2,59 +2,67 @@
   "OutData" :[    
   {
     "Type": "Automatic",
-    "Amount": "599",
+    "Amount": "1500",
     "From": "Account 1",
     "To": "Account 2",
-    "Transaction Date": "24/03/2021"
+    "Transaction Date": "24/03/2021",
+    "Scheduled To" : "31/06/2021"
   },
   {
     "Type": "Automatic",
-    "Amount": "599",
+    "Amount": "1500",
     "From": "Account 1",
     "To": "Account 2",
-    "Transaction Date": "24/03/2021"
+    "Transaction Date": "24/03/2021",
+    "Scheduled To" : "31/06/2021"
   },
   {
     "Type": "Automatic",
-    "Amount": "599",
+    "Amount": "60000",
     "From": "Account 1",
     "To": "Account 2",
-    "Transaction Date": "24/03/2021"
+    "Transaction Date": "24/03/2021",
+    "Scheduled To" : "31/06/2021"
   },
   {
     "Type": "Automatic",
-    "Amount": "599",
+    "Amount": "8500",
     "From": "Account 1",
     "To": "Account 2",
-    "Transaction Date": "24/03/2021"
+    "Transaction Date": "24/03/2021",
+    "Scheduled To" : "31/06/2021"
   },
   {
     "Type": "Automatic",
-    "Amount": "599",
+    "Amount": "6904",
     "From": "Account 1",
     "To": "Account 2",
-    "Transaction Date": "24/03/2021"
+    "Transaction Date": "24/03/2021",
+    "Scheduled To" : "31/06/2021"
   },
   {
     "Type": "Automatic",
-    "Amount": "599",
+    "Amount": "4567",
     "From": "Account 1",
     "To": "Account 2",
-    "Transaction Date": "24/03/2021"
+    "Transaction Date": "24/03/2021",
+    "Scheduled To" : "31/06/2021"
   },
   {
     "Type": "Automatic",
-    "Amount": "599",
+    "Amount": "1234",
     "From": "Account 1",
     "To": "Account 2",
-    "Transaction Date": "24/03/2021"
+    "Transaction Date": "24/03/2021",
+    "Scheduled To" : "31/06/2021"
   },
   {
     "Type": "Automatic",
-    "Amount": "599",
+    "Amount": "6677",
     "From": "Account 1",
     "To": "Account 2",
-    "Transaction Date": "24/03/2021"
+    "Transaction Date": "24/03/2021",
+    "Scheduled To" : "31/06/2021"
   }
 ],
   "TransactionIn":[

@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./style";
 import NavBar from "./NavBar";
 import OutData from "./Transaction_out.json";
-import InData from "./Transaction_in.json";
 
+import Footer from "./Footer";
 class SimpleTable extends React.Component {
   constructor(props) {
     super(props);
@@ -72,8 +72,9 @@ class TransactionDetailsCom extends React.Component {
           <h4>Scheduled Transactions</h4>
           <SimpleTable data={OutData.OutData} />
           <h4>Processed Transfers</h4>
-          <SimpleTable data={OutData.InData} />
+          <SimpleTable data={OutData.TransactionIn} />
         </div>
+        <Footer />
       </div>
     );
   }
