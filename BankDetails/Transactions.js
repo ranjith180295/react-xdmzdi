@@ -69,10 +69,10 @@ class TransactionDetailsCom extends React.Component {
         <NavBar />
         <div className="transfer-activity profile">
           <h3>Transfer Activity</h3>
-          <h4>Pending Transfers</h4>
+          <h4>Scheduled Transactions</h4>
           <SimpleTable data={OutData.OutData} />
           <h4>Processed Transfers</h4>
-          <SimpleTable data={pendingData} />
+          <SimpleTable data={OutData.InData} />
         </div>
       </div>
     );

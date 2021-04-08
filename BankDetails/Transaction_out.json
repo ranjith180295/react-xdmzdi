@@ -56,5 +56,49 @@
     "To": "Account 2",
     "Transaction Date": "24/03/2021"
   }
+],
+  "TransactionIn":[
+   {
+    "Type": "Automatic",
+    "Amount": "299",
+    "From": "Account 1",
+    "To": "Account 2",
+    "Transaction Date": "01/04/2021"
+  },
+  {
+    "Type": "Automatic",
+    "Amount": "299",
+    "From": "Account 1",
+    "To": "Account 2",
+    "Transaction Date": "01/04/2021"
+  },
+  {
+    "Type": "Automatic",
+    "Amount": "299",
+    "From": "Account 1",
+    "To": "Account 2",
+    "Transaction Date": "01/04/2021"
+  },
+  {
+    "Type": "Automatic",
+    "Amount": "299",
+    "From": "Account 1",
+    "To": "Account 2",
+    "Transaction Date": "01/04/2021"
+  },
+  {
+    "Type": "Automatic",
+    "Amount": "299",
+    "From": "Account 1",
+    "To": "Account 2",
+    "Transaction Date": "01/04/2021"
+  },
+  {
+    "Type": "Automatic",
+    "Amount": "299",
+    "From": "Account 1",
+    "To": "Account 2",
+    "Transaction Date": "01/04/2021"
+  }
 ]
 }

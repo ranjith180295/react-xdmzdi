@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import LoginCom from "./LogIn/LogIn";
+import LoginCom from "./BankDetails/Login";
 import Home from "./Home/Home";
 import MaterialTestCom from "./MaterialTesting/MaterialTest";
 import MaterialDesignCom from "./MaterialTesting/MaterialDesign";
